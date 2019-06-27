@@ -1,0 +1,32 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+@import url(components/card.css);
+@import url(components/container-product.css);
+/* Components */
+/* @import url("components/name_of_component.css"); */
+/*https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60
+*/
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+.text-center {
+  text-align: center;
+}
+html {
+  background: url(https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center center fixed;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-opacity: 0.5;
+}
+
+.container-all {
+  display: flex;
+  width: 600px;
+  margin: auto;
+}
+
